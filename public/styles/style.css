@@ -1,0 +1,14 @@
+.navbarChange{
+    background-color: white !important;
+    color:red
+}
+
+.nav-link{
+    color:red !important;
+    font-size:bold !important;
+}
+
+.mythead-red{
+    background: #864141 !important;
+    color: #e2ded5 !important;
+}
