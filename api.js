@@ -39,6 +39,7 @@ app.post('/addWarranty',(req,res) => {
         "name":req.body.name,
         "model":req.body.model,
         "serial":req.body.serial,
+        "dealer_name":req.body.dealer,
         "date":req.body.date,
     }
     db.collection(col_name).find({"serial":req.body.serial}).toArray((err,result) =>{
